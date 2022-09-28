@@ -27,7 +27,7 @@ class JeuDe extends Component {
                 <p>Nombre d'essais : {this.state.compteur}</p>
                 {
                     this.state.end
-                    ?<div><p>Bravo! Vous avez trouvez face caché</p><button onClick={this.init}>Initialiser</button></div>
+                    ?<div><p>Bravo! Vous avez trouvez la face cachée</p><button onClick={this.init}>Initialiser</button></div>
                     :<button onClick={this.jouer}>Jouer</button>
                 }
             </div>
